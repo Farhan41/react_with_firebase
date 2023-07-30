@@ -114,3 +114,20 @@ button:focus-visible {
     background-color: #ffd600;;
   }
 }
+
+@media (max-width:575px){
+  /* input{
+    display: block;
+  } */
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .fire{
+    margin-left: 0px ;
+    
+  }
+}

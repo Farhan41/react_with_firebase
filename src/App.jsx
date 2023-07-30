@@ -49,11 +49,13 @@ let handleDelete = (id) =>{
 
   return (
     <>
-      <h3 className="fire">REACT WITH FIREBASE</h3>
+     <div className="container">
+     <h3 className="fire">REACT WITH FIREBASE</h3>
      <input name="tname" onChange={handleChange} placeholder="todo" type="text" value={values.tname} />
      <input name="tdes" onChange={handleChange} placeholder="description" type="text" value={values.tdes} />
      <button onClick={handleClick}>Click</button>
      {/* <button onClick={handleUpdate} className="update">Update</button> */}
+     </div>
 
      <ul>
      {taskArr.map((item)=>(
