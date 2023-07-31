@@ -47,14 +47,34 @@ input{
   margin-right: 5px;
 }
 
+.button{
+  margin-top: 5px;
+  width: 60%;
+  display: flex;
+    place-items: center;
+    justify-content: end;
+}
+.todo{
+  width: 40%;
+  overflow: hidden;
+}
+
+
+
 .part{
   display: flex;
   justify-content: space-between;
+  max-width: 400px;
+
 }
 
 .part .left{
   /* color: red; */
   font-weight: 700;
+}
+
+.toggle{
+  text-decoration: line-through;
 }
 
 .edit{
@@ -69,11 +89,12 @@ input{
 
 .part .right{
   color: red;
+  font-size: x-small;
   
 }
 
 .fire{
-  margin-left: 100px ;
+  text-align: center;
   color: #685e06e8;
 }
 button {
@@ -94,9 +115,7 @@ button {
   color: white;
 }
 
-.button{
-  margin-top: 5px;
-}
+
 
 button:hover {
   border-color: #fafafa;
