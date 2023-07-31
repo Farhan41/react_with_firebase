@@ -137,7 +137,11 @@ button:focus-visible {
     gap: 20px;
   }
 
-  button{
+  .edit{
+    padding: 2px 5px
+  }
+  
+  .delete{
     padding: 2px 5px
   }
 
