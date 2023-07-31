@@ -127,7 +127,15 @@ button:focus-visible {
   }
 
   .fire{
-    margin-left: 0px ;
+    margin-left: 50px ;
     
   }
+
+  .part{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+
 }
