@@ -127,7 +127,7 @@ button:focus-visible {
   }
 
   .fire{
-    margin-left: 50px ;
+    margin: auto;
     
   }
 
@@ -137,5 +137,8 @@ button:focus-visible {
     gap: 20px;
   }
 
+  button{
+    padding: 2px 5px
+  }
 
 }
