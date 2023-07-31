@@ -94,6 +94,10 @@ button {
   color: white;
 }
 
+.button{
+  margin-top: 5px;
+}
+
 button:hover {
   border-color: #fafafa;
 }
